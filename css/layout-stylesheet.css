@@ -1,0 +1,64 @@
+body {
+    background-color: darkblue;
+}
+
+div.flex.site {
+    background-color: white;
+    display: flex;
+    padding: 35px;
+}
+
+article {
+    width: 100%;
+    margin-left: 35px;
+}
+
+nav.article.nav {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+header,
+footer {
+    align-items: center;
+    background-color: #00004c;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+
+    nav.site.nav {
+        margin-left: auto;
+        display: flex;
+
+        a {
+            margin-right: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+div.main {
+    background-color: white;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+td,
+th {
+    border-bottom: 1px solid;
+    padding: 15px;
+}
+
+tbody tr:hover {
+    background-color: whitesmoke;
+}

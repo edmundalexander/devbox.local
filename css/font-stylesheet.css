@@ -1,0 +1,18 @@
+body {
+    font-family: Helvetica;
+}
+
+logo {
+    font-size: 36px;
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+nav.site.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}

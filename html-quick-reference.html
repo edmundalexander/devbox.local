@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Devbox - HTML Quick Reference</title>
+    <link rel="stylesheet" href="css/layout-stylesheet.css">
+    <link rel="stylesheet" href="css/font-stylesheet.css">
+</head>
+
+<body>
+
+    <header class="site header">
+        <img class="logo" src="/img/devbox.svg" alt="box icon">
+        <logo>Devbox</logo>
+        <nav class="site nav">
+            <img src="/img/home_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.svg" alt="home icon"><a
+                href="/index.html">Home</a>
+            <img src="/img/code_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.svg" alt="playground icon"><a
+                href="/playground/playground.html">Playground</a>
+        </nav>
+    </header>
+    <div class="flex site">
+
+        <article>
+            <h1>HTML Quick Reference</h1>
+            <nav class="article nav">
+                <h4>Article Contents</h4>
+                <ol>
+                    <li><a href="#block-and-inline-elements">Block and Inline</a></li>
+                    <li><a href="#override-block-and-inline">Override Block and Inline</a></li>
+                    <li><a href="#center-elements">Center</a></li>
+                </ol>
+            </nav>
+            <section id="block-and-inline-elements">
+                <h2>Block and Inline</h2>
+                <p><code>p</code> block</p>
+                <p><code>p</code> block</p>
+                <a href=""><code>a</code> inline</a>
+                <a href=""><code>a</code> inline</a>
+            </section>
+            <section id="override-block-and-inline">
+                <h2>Override Block and Inline settings</h2>
+                <h3>Block to Inline</h3>
+                <p><code>element: {display: inline;}</code></p>
+                <p style="display: inline;"><code>p</code> inline</p>
+                <p style="display: inline;"><code>p</code> inline</p>
+                <h3>Inline to Block</h3>
+                <p><code>element: {display: block;}</code></p>
+                <a style="display: block;" href=""><code>a</code> block</a>
+                <a style="display: block;" href=""><code>a</code> block</a>
+            </section>
+            <section id="center-elements">
+                <h2>Center</h2>
+                <h3>Block</h3>
+                <p>on parent: <code>element: {width: fit-content; margin: auto;}</code></p>
+                <div style="width: fit-content; margin:auto;">
+                    <p style="text-align: center;"><code>p</code> block</p>
+                </div>
+                <h3>Inline</h3>
+                <p>on parent: <code>element: {text-align: center;}</code></p>
+                <div style="text-align: center;">
+                    <a href=""><code>a</code> inline</a>
+                </div>
+            </section>
+        </article>
+
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy People.</p>
+    </footer>
+
+</body>
+
+</html>
