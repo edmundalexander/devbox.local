@@ -1,0 +1,29 @@
+div.flex.container {
+    display: flex;
+    flex-flow: wrap;
+
+    div.item.a{
+        background-color: aliceblue;
+        padding: 15px;
+        margin: 10px;
+        flex: 4;
+    }
+    div.item.b{
+        background-color: aliceblue;
+        padding: 15px;
+        margin: 10px;
+        flex: 1;
+    }
+    div.item.c{
+        background-color: aliceblue;
+        padding: 15px;
+        margin: 10px;
+        flex: 1;
+    }
+    div.item.d{
+        background-color: aliceblue;
+        padding: 15px;
+        margin: 10px;
+        flex: 1;
+    }
+}
