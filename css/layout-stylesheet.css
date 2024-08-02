@@ -13,12 +13,6 @@ article {
     margin-left: 35px;
 }
 
-nav.article.nav {
-    display: flex;
-    flex-direction: column;
-    float: right;
-}
-
 header,
 footer {
     align-items: center;
@@ -40,11 +34,6 @@ footer {
         }
     }
 
-}
-
-header {
-    position: sticky;
-    top: 0px;
 }
 
 div.main {

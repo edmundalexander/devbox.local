@@ -63,6 +63,22 @@
                     <a href=""><code>a</code> inline</a>
                 </div>
             </section>
+
+            <section>
+                <h2>Sizing</h2>
+                <h3>Block</h3>
+                <p style="background-color: aliceblue; border: 1px solid;"><code>p</code> block <code>(size: inherits from parent)</code></p>
+                <p style="background-color: aliceblue; border: 1px solid; padding: 25px;"><code>p</code> block with <code>padding</code> <code>(size: inherits from parent + padding)</code></p>
+                <h3>Inline</h3>
+                <a style="background-color: aliceblue; border: 1px solid;" href=""><code>a</code> block <code>(size: content)</code></a>
+                <a style="background-color: aliceblue; border: 1px solid; padding: 25px;" href=""><code>a</code> block with padding <code>(size: content + padding)</code></a> 
+                <p>Note: Inline padding pushes other inline but not block elements.</p>
+                <h3>Inline block</h3>
+                <button><code>button</code> inline-block <code>(size:content)</code></button>
+                <button style="padding: 25px;"><code>button</code> inline-block <code>(size:content + padding)</code></button>
+                <p>Note: Inline-block padding pushes other elements.</p>
+            </section>
+
         </article>
 
     </div>
