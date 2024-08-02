@@ -3,18 +3,7 @@ body {
     margin: 0px;
 }
 
-div.flex.site {
-    background-color: white;
-    display: flex;
-    padding: 35px;
-}
-
-article {
-    width: 100%;
-    margin-left: 35px;
-}
-
-header,
+header.site,
 footer {
     align-items: center;
     background-color: #00004c;
@@ -37,6 +26,29 @@ footer {
     }
 
 }
+
+.fc {
+    display: flex;
+    flex-flow: row wrap;
+
+    .article.nav {
+        flex: 1;
+        height: fit-content;
+        margin-right: 20px;
+    }
+
+    .article.body {
+        flex: 5;
+    }
+    
+    .article {
+        margin: 20px;
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 
 div.pc.main {
     background-color: white;

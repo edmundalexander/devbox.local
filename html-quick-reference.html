@@ -9,8 +9,7 @@
 </head>
 
 <body>
-
-    <header class="site header">
+    <header class="site">
         <img class="logo" src="./img/devbox.svg" alt="box icon">
         <logo>Devbox</logo>
         <nav class="site nav">
@@ -20,18 +19,19 @@
                 href="./playground/playground.html">Playground</a>
         </nav>
     </header>
-    <div class="flex site">
-
-        <article>
-            <h1>HTML Quick Reference</h1>
-            <nav class="article nav">
-                <h4>Article Contents</h4>
-                <ol>
-                    <li><a href="#block-and-inline-elements">Block and Inline</a></li>
-                    <li><a href="#override-block-and-inline">Override Block and Inline</a></li>
-                    <li><a href="#center-elements">Center</a></li>
-                </ol>
-            </nav>
+    <article class="fc">
+        <nav class="article nav">
+            <p>In this article</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </nav>
+        <article class="article body">
+            <header class="leading header">
+                <h1>HTML Quick Reference.</h1>
+            </header>
             <section id="block-and-inline-elements">
                 <h2>Block and Inline</h2>
                 <p><code>p</code> block</p>
@@ -63,30 +63,35 @@
                     <a href=""><code>a</code> inline</a>
                 </div>
             </section>
-
             <section>
                 <h2>Sizing</h2>
                 <h3>Block</h3>
-                <p style="background-color: aliceblue; border: 1px solid;"><code>p</code> block <code>(size: inherits from parent)</code></p>
-                <p style="background-color: aliceblue; border: 1px solid; padding: 25px;"><code>p</code> block with <code>padding</code> <code>(size: inherits from parent + padding)</code></p>
+                <p style="background-color: aliceblue; border: 1px solid;"><code>p</code> block
+                    <code>(size: inherits from parent)</code>
+                </p>
+                <p style="background-color: aliceblue; border: 1px solid; padding: 25px;"><code>p</code> block with
+                    <code>padding</code> <code>(size: inherits from parent + padding)</code>
+                </p>
                 <h3>Inline</h3>
-                <a style="background-color: aliceblue; border: 1px solid;" href=""><code>a</code> block <code>(size: content)</code></a>
-                <a style="background-color: aliceblue; border: 1px solid; padding: 25px;" href=""><code>a</code> block with padding <code>(size: content + padding)</code></a> 
-                <p>Note: Inline padding pushes other inline but not block elements.</p>
+                <a style="background-color: aliceblue; border: 1px solid;" href=""><code>a</code> block
+                    <code>(size: content)</code></a>
+                <div>
+                    <a style="background-color: aliceblue; border: 1px solid; padding: 25px;" href=""><code>a</code>
+                        block
+                        with padding <code>(size: content + padding)</code></a>
+                    <p>Note: Inline padding pushes other inline but not block elements.</p>
+                </div>
                 <h3>Inline block</h3>
                 <button><code>button</code> inline-block <code>(size:content)</code></button>
-                <button style="padding: 25px;"><code>button</code> inline-block <code>(size:content + padding)</code></button>
+                <button style="padding: 25px;"><code>button</code> inline-block
+                    <code>(size:content + padding)</code></button>
                 <p>Note: Inline-block padding pushes other elements.</p>
             </section>
-
         </article>
-
-    </div>
-
+    </article>
     <footer class="site-footer">
-        <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a> & others.</p>
+        <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a> & <a href="">others</a>.</p>
     </footer>
-
 </body>
 
 </html>

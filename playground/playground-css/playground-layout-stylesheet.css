@@ -1,8 +1,51 @@
-header, footer {
-    background-color: aliceblue;
-    height: 80px;
+body {
+    background-color: darkblue;
 }
 
-article {
-    min-height: calc(100vh - 160px);
+header.site,
+footer {
+    align-items: center;
+    background-color: #00004c;
+    height: 30px;
+    padding: 20px;
+    /* total height = 20*2px + 30px = 70px */
+    display: flex;
+
+    nav.site.nav {
+        margin-left: auto;
+        display: flex;
+
+        a {
+            margin-right: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
 }
+
+.fc {
+    display: flex;
+    flex-flow: row wrap;
+
+    .article.nav {
+        flex: 1;
+        height: fit-content;
+        margin-right: 20px;
+    }
+
+    .article.body {
+        flex: 5;
+    }
+    
+    .article {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
