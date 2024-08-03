@@ -2,6 +2,31 @@ body {
     font-family: Helvetica;
 }
 
+.tag-box > * {
+    font-family: monospace;
+}
+
+.img-caption {
+    font-size: small;
+    color: white;
+}
+
+.author {
+    b {
+        font-size: smaller;
+        color: gray;
+    }
+}
+
+.code-example code {
+    color: white;
+}
+
+.code-example figcaption {
+    font-size: x-small;
+    color: white;
+}
+
 logo {
     font-size: 36px;
     color: white;
