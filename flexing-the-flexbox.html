@@ -11,7 +11,7 @@
 <body>
 
     <div class="fc-main">
-        
+
         <div class="whitespace"></div>
         <article class="fc-mid" title="">
             <header class="site">
@@ -46,28 +46,36 @@
                     <code>element {display: flex;}</code>
                     <figcaption class="cap-css">CSS</figcaption>
                 </figure>
-                <p>Set the flex element to display as column or row and add wrap.</p>
+                <p>Set the flex element to display as column or row and add wrap:</p>
                 <figure class="code-example">
                     <code>element {flex-flow: column wrap;}</code> or
-                    <code>:row wrap</code>
+                    <code>row wrap</code>
                     <figcaption class="cap-css">CSS</figcaption>
                 </figure>
-                <p>Add a <code>flex-grow</code> value to the flex element's direct children.</p>
+                <p>Add a <code>flex-grow</code> value to the flex element's direct children:</p>
                 <figure class="code-example">
                     <code>element > * {flex: 1;}</code>
                     <figcaption class="cap-css">CSS</figcaption>
                 </figure>
-                <p>For dealing with images nested inside of flex elements set their <code>max-width</code> to it's parent's and automate the height.</p>
+                <p>For dealing with images nested inside of flex elements set their <code>max-width</code> to it's
+                    parent's and automate the height:</p>
                 <figure class="code-example">
                     <code>img {max-width: 100%; height: auto;}</code>
                     <figcaption class="cap-css">CSS</figcaption>
                 </figure>
+                <p>We can create full width on headers and footers in flex elements set to row:</p>
+                <figure class="code-example">
+                    <code>element {flex: 0 1 100vw}</code>
+                    <figcaption class="cap-css">CSS</figcaption>
+                </figure>
             </main>
+
             <footer class="site-footer">
-                <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a> & <a href="">others</a>.</p>
+                <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a> & <a href="">others</a>.
+                </p>
             </footer>
         </article>
-        <div class="whitespace"></div>       
+        <div class="whitespace"></div>
     </div>
 </body>
 

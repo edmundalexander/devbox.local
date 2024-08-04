@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     min-height: calc(100vh - 16px);
+    justify-content: space-evenly;
 }
 
 .fc-main .whitespace {
