@@ -4,71 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Devbox - Home</title>
-    <link rel="stylesheet" href="css/font-stylesheet.css">
-    <link rel="stylesheet" href="css/layout-stylesheet.css">
+    <link rel="stylesheet" href="./css/font-stylesheet.css">
+    <link rel="stylesheet" href="./css/layout-stylesheet.css">
 </head>
 
 <body>
-
-    <div class="fc-main">
-
-        <div class="whitespace"></div>
-        <article class="fc-mid" title="">
-            <header class="site">
-                <img class="logo" src="./img/devbox.svg" alt="box icon">
-                <logo>Devbox</logo>
-            </header>
-            <header style="background-image: url(./img/dexbox-main-header-image.png); background-size: cover;">
-            </header>
-            <main>
-                <h1>About Devbox</h1>
-                <section class="about">
-                    <p>This is a site with a collection of information which I find useful for development.</p>
+    <div class="fc">
+        <header class="site-header">
+            <img class="logo" src="./img/devbox.svg" alt="box icon">
+            <logo>Devbox</logo>
+        </header>
+        <div class="banner-img"></div>
+        <main>
+            <header class="article-header"><h1>Welcome into DevBox!</h1></header>
+            <div class="boxes">
+                <section>
+                    <a href="./html-quick-reference.html">
+                        <img src="./img/html-quick-ref-box.jpg" alt="html quick references">
+                        <h3>HTML Quick References</h3>
+                    </a>
                 </section>
-
-                <section class="index">
-
-                    <h1>Content</h1>
-
-                    <div class="tables">
-
-                        <table>
-                            <thead>
-                                <th>Name</th>
-                                <th>Description</th>
-                                <th>Location</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>HTML Quick Reference</td>
-                                    <td>A quick reference guide for how to display and use html elements.</td>
-                                    <td><a href="./html-quick-reference.html">/html-quick-reference.html</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Playground</td>
-                                    <td>For testing out code.</td>
-                                    <td><a href="./playground/playground.html">/playground/playground.html</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Flexing the Flexbox</td>
-                                    <td>An article about using flexbox.</td>
-                                    <td><a href="./flexing-the-flexbox.html">/flexing-the-flexbox.html</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-
+                <section>
+                    <a href="./flexing-the-flexbox.html">
+                        <img src="./img/flex-box-ref-box.jpg" alt="flex-box flex">
+                        <h3>Flexing the flexbox</h3>
+                    </a>
                 </section>
-            </main>
-            <footer class="site-footer">
-                <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a> & <a href="">others</a>.
-                </p>
-            </footer>
-        </article>
-        <div class="whitespace"></div>
+                <section>
+                    <a href="./playground/playground.html">
+                        <img src="./img/dev-playground-box.jpg" alt="playground">
+                        <h3>Playground</h3>
+                    </a>
+                </section>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a>.</p>
+        </footer>
     </div>
-
 </body>
 
 </html>
