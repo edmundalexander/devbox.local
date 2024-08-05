@@ -31,11 +31,16 @@ body {
     }
 }
 
-.code-example code {
-    color: white;
+.cap-js {
+    color: orange;
+    font-size: x-small;
 }
 
-.code-example figcaption {
+.cap-css {
+    color: white;
     font-size: x-small;
+}
+
+.code-example code {
     color: white;
 }
