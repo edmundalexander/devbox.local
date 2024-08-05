@@ -17,7 +17,7 @@ body {
     width: 100%;
 }
 
-.site-header, 
+.site-header,
 .site-footer {
     padding: 20px;
     align-content: center;
@@ -26,6 +26,7 @@ body {
     flex: 0 1 100vw;
     display: flex;
     flex-flow: row wrap;
+
     logo {
         margin-left: 10px;
     }
@@ -82,10 +83,12 @@ body {
 .code-example code {
     background-color: #1f1f1f;
     padding: 15px;
+    display: block;
 }
 
 .code-example {
     position: relative;
+    max-width: fit-content;
 }
 
 .code-example figcaption {
@@ -93,6 +96,7 @@ body {
     width: fit-content;
     position: relative;
     margin-left: 5px;
+    margin-top: -5px;
 }
 
 .img-caption {
@@ -110,5 +114,23 @@ body {
     img {
         max-width: 100%;
         height: auto;
+    }
+}
+
+.flex-col {
+    display: flex;
+    flex-flow: row wrap;
+
+    section {
+        flex: 2;
+        min-width: fit-content;
+    }
+
+    aside {
+        flex: 1;
+        margin-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 3px solid aliceblue;
     }
 }
