@@ -7,14 +7,22 @@ body {
     display: flex;
     flex-flow: row wrap;
     margin: 0 15% 0 15%;
+    min-height: 100vh;
 }
 
 .fc main {
-    padding: 20px;
+    padding: 0;
     background-color: white;
     display: flex;
     flex-flow: column wrap;
     width: 100%;
+
+    article {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    
 }
 
 .site-header,
@@ -55,13 +63,23 @@ body {
 }
 
 .boxes {
+    background-color: #f6f6f6 ;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     section {
         max-width: 150px;
         text-align: center;
+        margin: 20px 0 20px 0;
+        background-color: white;
+        border-radius: 1em;
+        padding: 5px;
+    }
+
+    section:hover {
+        border: 1px solid darkblue;
+        margin: 19px 0 19px 0;
     }
 
     img {

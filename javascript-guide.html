@@ -23,51 +23,53 @@
             </nav>
         </header>
         <main>
-            <header class="article-header">
-                <h1>Javascript Guide</h1>
-                <div class="tag-box">
-                    <span>Javascript</span>
-                    <span>Scripting</span>
-                    <span>Advanced</span>
+            <article>
+                <header class="article-header">
+                    <h1>Javascript Guide</h1>
+                    <div class="tag-box">
+                        <span>Javascript</span>
+                        <span>Scripting</span>
+                        <span>Advanced</span>
+                    </div>
+                    <figure class="img-box">
+                        <img src="./img/javascript-guide-header-image.png" alt="">
+                        <figcaption class="img-caption">EDMUND ALEXANDER</figcaption>
+                    </figure>
+                </header>
+                <div class="flex-col">
+                    <section>
+                        <p>Function syntax:</p>
+                        <figure class="code-example">
+                            <code>function (parameters)</code>
+                            <figcaption class="cap-js">JS</figcaption>
+                        </figure>
+                        <p>Object syntax in Javascript:</p>
+                        <figure class="code-example">
+                            <code>{object}</code>
+                            <figcaption class="cap-js">JS</figcaption>
+                        </figure>
+                        <p>Displaying a document element's text content on the page: </p>
+                        <figure class="code-example">
+                            <code>var DocElementText = document.querySelector("element").textContent;</code>
+                            <code>document.getElementbyID("elementID") = DocElementText;</code>
+                            <figcaption class="cap-js">JS</figcaption>
+                        </figure>
+                        <p id="pageTitle"></p>
+                    </section>
+
+                    <aside>
+                        <h3>Key</h3>
+                        <h5>Defs</h5>
+                        <p><b>DOM: </b>Document Object Model. The structure of a html document used with scripting.</p>
+
+                        <h5>APIs</h5>
+                        <p><code>document</code> : the DOM API. Used to access the html document.</p>
+                        <p><code>.querySelector("parameters");</code> : method to select an element from within the html
+                            document.</p>
+                    </aside>
+
                 </div>
-                <figure class="img-box">
-                    <img src="./img/javascript-guide-header-image.png" alt="">
-                    <figcaption class="img-caption">EDMUND ALEXANDER</figcaption>
-                </figure>
-            </header>
-            <div class="flex-col">
-                <section>
-                    <p>Function syntax:</p>
-                    <figure class="code-example">
-                        <code>function (parameters)</code>
-                        <figcaption class="cap-js">JS</figcaption>
-                    </figure>
-                    <p>Object syntax in Javascript:</p>
-                    <figure class="code-example">
-                        <code>{object}</code>
-                        <figcaption class="cap-js">JS</figcaption>
-                    </figure>
-                    <p>Displaying a document element's text content on the page: </p>
-                    <figure class="code-example">
-                        <code>var DocElementText = document.querySelector("element").textContent;</code>
-                        <code>document.getElementbyID("elementID") = DocElementText;</code>
-                        <figcaption class="cap-js">JS</figcaption>
-                    </figure>
-                    <p id="pageTitle"></p>
-                </section>
-
-                <aside>
-                    <h3>Key</h3>
-                    <h5>Defs</h5>
-                    <p><b>DOM: </b>Document Object Model. The structure of a html document used with scripting.</p>
-
-                    <h5>APIs</h5>
-                    <p><code>document</code> : the DOM API. Used to access the html document.</p>
-                    <p><code>.querySelector("parameters");</code> : method to select an element from within the html document.</p>
-                </aside>
-
-            </div>
-
+            </article>
         </main>
         <footer class="site-footer">
             <p>by <a href="mailto:edmundalexandersemails@gmail.com">@Edmund Alexander</a>.</p>
