@@ -41,6 +41,6 @@ body {
     font-size: x-small;
 }
 
-.code-example code {
+.code-example code, .code-example-ib code {
     color: white;
 }

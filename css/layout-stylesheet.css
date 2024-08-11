@@ -105,12 +105,18 @@ body {
     display: block;
 }
 
-.code-example {
+.code-example-ib code {
+    background-color: #1f1f1f;
+    padding: 15px;
+    display: inline-block;
+}
+
+.code-example, .code-example-ib {
     position: relative;
     max-width: fit-content;
 }
 
-.code-example figcaption {
+.code-example figcaption, .code-example-ib figcaption {
     background-color: gray;
     width: fit-content;
     position: relative;
