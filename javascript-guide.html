@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/layout-stylesheet.css">
     <link rel="stylesheet" href="./css/font-stylesheet.css">
     <link rel="icon" type="image/x-icon" href="./img/devbox-logo.png">
-    <script src="./scripts/main-script.js"></script>
+    <script src="./js/main-script.js"></script>
 </head>
 
 <body>
@@ -74,6 +74,17 @@
                             <legend>Declared and assigned a value outside of a function: </legend>
                             <code>var x = 1;</code>
                             <code>function f1 () {console.log(x)};</code>
+                            <figcaption class="cap-js">JS</figcaption>
+                        </figure>
+                        <p>Local scope variables:</p>
+                        <figure class="code-example">
+                            <legend>Declared and assigned a value inside of a function: </legend>
+                            <code>function f1 () {var x = 1};</code>
+                            <figcaption class="cap-js">JS</figcaption>
+                        </figure>
+                        <p>Declaring and assigning objects: </p>
+                        <figure class="code-example">
+                            <code>var person = {fName: "someString", lName: "someString"};</code>
                             <figcaption class="cap-js">JS</figcaption>
                         </figure>
                     </section>
